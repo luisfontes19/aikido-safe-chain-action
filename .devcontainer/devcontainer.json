@@ -1,0 +1,26 @@
+{
+    "name": "Aikido Safe Chain Action",
+    "build": {
+        "dockerfile": "Dockerfile",
+        "context": ".."
+    },
+    "mounts": [
+        "source=/var/run/docker.sock,target=/var/run/docker.sock,type=bind"
+    ],
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "luisfontes19.vscode-swissknife",
+                "luisfontes19.watchtower",
+                "github.copilot"
+            ],
+            "settings": {
+                "typescript.preferences.quoteStyle": "double",
+                "editor.formatOnSave": true,
+                "editor.codeActionsOnSave": {
+                    "source.organizeImports": "explicit"
+                }
+            }
+        }
+    }
+}

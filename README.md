@@ -21,7 +21,7 @@ steps:
 steps:
   - uses: actions/checkout@v4
 
-  - uses: luisfontes19/aikido-safe-chain-action@v1
+  - uses: luisfontes19/aikido-safe-chain-action
     with:
       logging: silent
       minimum-package-age-hours: "48"

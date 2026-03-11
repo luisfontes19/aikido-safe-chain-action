@@ -9,9 +9,7 @@ Safe Chain intercepts package installations and blocks known malware in real-tim
 ```yaml
 steps:
   - uses: actions/checkout@v4
-
   - uses: luisfontes19/aikido-safe-chain-action@v1
-
   - run: npm ci   # automatically protected by safe-chain
 ```
 
@@ -21,7 +19,7 @@ steps:
 steps:
   - uses: actions/checkout@v4
 
-  - uses: luisfontes19/aikido-safe-chain-action
+  - uses: luisfontes19/aikido-safe-chain-action@v1
     with:
       logging: silent
       minimum-package-age-hours: "48"

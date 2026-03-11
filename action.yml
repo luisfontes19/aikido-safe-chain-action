@@ -1,5 +1,5 @@
 name: "Aikido Safe Chain"
-description: "Protect your CI/CD pipeline from malicious packages using Aikido Safe Chain. Blocks malware in npm, pip, yarn, pnpm, bun, uv, poetry and more."
+description: "Protect your CI/CD pipeline from malicious packages using Aikido Safe Chain."
 author: "Your Name"
 
 branding:
